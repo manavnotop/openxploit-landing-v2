@@ -10,7 +10,7 @@ export function Launch() {
   const [copiedCommand, setCopiedCommand] = useState(false)
 
   const copyCommand = () => {
-    navigator.clipboard.writeText("curl -sSL openxploit.sh | bash")
+    navigator.clipboard.writeText("curl -fsSL https://www.openxploit.xyz/install.sh | bash")
     setCopiedCommand(true)
     setTimeout(() => setCopiedCommand(false), 2000)
   }
