@@ -95,7 +95,7 @@ export function Hero() {
                 <span className="text-sm text-muted-foreground ml-4">Terminal</span>
               </div>
               <div className="font-mono text-sm space-y-2">
-                <div className="text-green-500">$ curl -sSL openxploit.sh | bash</div>
+                <div className="text-green-500">$ curl -fsSL https://www.openxploit.xyz/install.sh | bash</div>
                 <div className="relative">
                   <motion.div
                     initial="hidden"
