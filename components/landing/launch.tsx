@@ -55,7 +55,7 @@ export function Launch() {
               </div>
 
               <div className="bg-muted rounded-lg p-4 font-mono text-sm md:text-base">
-                <code className="text-primary">curl -sSL openxploit.sh | bash</code>
+                <code className="text-primary">curl -fsSL https://www.openxploit.xyz/install.sh | bash</code>
               </div>
 
               <div className="mt-6 text-sm text-muted-foreground">
